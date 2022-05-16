@@ -1,7 +1,37 @@
-# Todo-app
+# TodoList
+react-hook-form과 recoil연습을 위한 todo 리스트
+## Demo
+
+Insert gif or link to demo
 
 
-## react-Hook-Form
+## Features
+
+<!-- - Light/dark mode toggle
+- Live previews
+- Fullscreen mode
+- Cross platform -->
+
+
+## Tech Stack
+
+**Client:** React, recoil
+
+
+
+## Authors
+
+- [@jaeelee](https://www.github.com/jaeelee)
+
+
+## Feedback
+
+If you have any feedback, please reach out to us at jaeelee.dev@gmail.com
+
+
+## Documentation
+
+### react-Hook-Form
 form 관리 라이브러리
 사용하기 쉬운 유효성 검사를 통해 성능이 뛰어나고 유연하며 확장 가능한 form
 
