@@ -100,7 +100,7 @@ atom의 output을 변형시키는 도구
 - 숫자 열거형 (Numeric enums)
 ```
 enum Direction {
-Up = 1,
+Up = 0,
 Down,
 Left,
 Right,
