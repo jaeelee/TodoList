@@ -16,16 +16,19 @@ function RegisterForm() {
         register,
         handleSubmit,
         formState: { errors },
-        setError
+        setError,
+        reset,
     } = useForm<IForm>({
         defaultValues: {
             email: "@naver.com",
         },
     });
-    const onValid = (data: IForm) => {
+    const onValid = (data: IForm) => { // react-hook-form이 모든 검증을 마쳤을 때만 호출됨
         if (data.password !== data.password1) {
             setError("password1", { message: "password ar not the same." }, { shouldFocus: true });
+            return;
         }
+        reset();
         // setError("extraError", { message: "Server offline." });
     };
     return (

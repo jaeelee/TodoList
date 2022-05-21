@@ -1,6 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 import reset from 'styled-reset';
-import RegisterForm from './components/RegisterForm';
+import RegisterForm from './components/SignUpForm';
 import TodoList from './components/TodoList';
 
 const GlobalStyle = createGlobalStyle`
@@ -15,8 +15,8 @@ function App() {
   return (
     <>
       <GlobalStyle />
-      {/* <TodoList /> */}
-      <RegisterForm />
+      <TodoList />
+      {/* <RegisterForm /> */}
     </>
   );
 }

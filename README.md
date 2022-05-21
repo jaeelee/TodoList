@@ -31,7 +31,7 @@ If you have any feedback, please reach out to us at jaeelee.dev@gmail.com
 
 ## Documentation
 
-### react-Hook-Form
+### ▶️ react-Hook-Form
 form 관리 라이브러리
 사용하기 쉬운 유효성 검사를 통해 성능이 뛰어나고 유연하며 확장 가능한 form
 
@@ -80,4 +80,39 @@ const { watch, register, handleSubmit, formState:{errors}, setError } = useForm(
     <td>setError</td>
     <td>특정한 에러를 발생시킴. 발생하는 문제에 따라 추가적으로 에러를 설정할 수 있도록 함. </td>
   </tr>
+  <tr>
+    <td>setValue</td>
+    <td>필드 값을 업데이트 </td>
+  </tr>
+  <tr>
+    <td>reset</td>
+    <td>form state와 value 재설정 <br> reset() // form전체 리셋 <br> reset({email:""}) // form에서 특정 필드만 리셋 </td>
+  </tr>
 </table>
+
+### ▶ recoil Selector
+atom의 output을 변형시키는 도구
+
+<br>
+
+### ▶️ enum
+열거형, 상수들의 집합을 정의할 수 있음
+- 숫자 열거형 (Numeric enums)
+```
+enum Direction {
+Up = 1,
+Down,
+Left,
+Right,
+}
+```
+
+- 문자열 열거형 (String enums)
+```
+enum Direction {
+Up = "UP",
+Down = "DOWN",
+Left = "LEFT",
+Right = "RIGHT",
+}
+```
