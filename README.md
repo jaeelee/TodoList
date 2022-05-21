@@ -15,7 +15,7 @@ Insert gif or link to demo
 
 ## Tech Stack
 
-**Client:** React, recoil
+**Client:** React, recoil, typescript
 
 
 
